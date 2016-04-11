@@ -25,9 +25,6 @@ int Solution::sol(int a, int b, int x)
 int main()
 {
   Solution s;
-  cout << getSum(3, 1000) << endl;
-  cout << getSum(5, 1000) << endl;
-  cout << getSum(15, 1000) << endl;
   cout << s.sol(3, 5, 1000) << endl;
 
   return 0;
